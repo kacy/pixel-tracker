@@ -38,3 +38,7 @@ https://some-dns.com/p?email=yourFriend@gmail.com&subject=LastEmail
 I'm requiring both `email` and `subject` to avoid bot scraping spam but feel free to change it around.
 
 ![Example Push Notification](asset/example.jpg)
+
+## Generate Link
+
+When the `WEBHOOK` environment variable is set, you can run `make link` to generate the link to embed in your email.
